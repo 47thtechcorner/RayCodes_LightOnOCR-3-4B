@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="#">
-    <img src="https://img.youtube.com/vi/placeholder/0.jpg" alt="This 2.7GB Local OCR Model Changed My Workflow! (LightOnOCR-3 Review)">
+  <a href="https://youtu.be/5uZurgx1Drs">
+    <img src="https://img.youtube.com/vi/5uZurgx1Drs/0.jpg" alt="This 2.7GB Local OCR Model Changed My Workflow! (LightOnOCR-3 Review)">
   </a>
-  <h3>📺 <a href="#">Watch the full tutorial on YouTube</a></h3>
+  <h3>📺 <a href="https://youtu.be/5uZurgx1Drs">Watch the full tutorial on YouTube</a></h3>
 </div>
 
 # 🚀 LightOnOCR Document Vision Intelligence
