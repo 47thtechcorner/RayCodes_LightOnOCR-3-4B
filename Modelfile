@@ -1,0 +1,14 @@
+FROM ./models/LightOnOCR-3-4B.Q4_K_M.gguf
+ADAPTER ./models/LightOnOCR-3-4B.mmproj-bf16.gguf
+
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|endoftext|>"
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9

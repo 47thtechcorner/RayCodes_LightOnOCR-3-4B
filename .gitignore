@@ -1,0 +1,8 @@
+models/
+inputs/
+outputs/
+assets/
+__pycache__/
+*.pyc
+.env
+.venv/
